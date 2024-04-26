@@ -1,0 +1,28 @@
+.Pokedex {
+    background-color: grey;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 1rem;
+    width: 20%;
+}
+
+@media screen and (max-width: 500px) {
+    .Pokedex {
+        margin: 10px;
+        width: 150px;
+        height: 200px;
+    }
+    h2, h3 {
+        margin: 5px;
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.3rem;
+    }
+    img {
+        width: 125px;
+    }
+    h3, img {
+        margin: -10px;
+    }
+}
