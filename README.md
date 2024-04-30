@@ -1,8 +1,15 @@
-# React + Vite
+# Pokedex
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I practiced React components and properties in this exercise.
 
-Currently, two official plugins are available:
+It is a pokemon application that displays an interface with boxes containing different pokemon information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I used 3 components: `App`, `Pokecard` and `Pokedex`.
+
+To run the application:
+
+    npm run dev
+
+Displays in:
+
+    http://localhost:3000/
